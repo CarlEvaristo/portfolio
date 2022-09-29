@@ -1,12 +1,14 @@
 import React from 'react'
-import "./Projects.css"
+import { useParams } from "react-router-dom"
+import { projectList } from '../helpers/ProjectList';
+import "./Detail.css"
 import NavBar from '../components/NavBar'
 import { Context } from "../context";
-import ProjectItem from '../components/ProjectItem';
-import { projectList } from '../helpers/ProjectList';
 import Footer from '../components/Footer';
 
-export default function Projects() {
+
+export default function Detail() {
+    const currItem = projectList[useParams().id]
     const context1 = React.useContext(Context)
 
     // when using css scroll snap functionality
@@ -19,19 +21,19 @@ export default function Projects() {
     function handleScroll(e) {
         context1.scrollSetter(e.target.scrollTop)
     }
-    const projectElements = projectList.map((project,index) => {
-        return <ProjectItem image={project.image} name={project.name} key={index} id={index}/>
-    })
-
     return (
         <>
             <NavBar/>
-            <div className='projects' onScroll={handleScroll}>
-                <div className='projectsContainer'>
-                    <div className='section projectList'>
-                    
-                        {projectElements}
-                    </div>
+            <div className='detail' onScroll={handleScroll}>
+                <div className='detailContainer'>
+                    <div className='container'>
+                        <h2>{currItem.name}</h2>
+                        <img src={currItem.image}  className="detailImage" />
+                        <h3>{currItem.title}</h3>
+                        <p>{currItem.description}</p>
+                        <a href={currItem.live} target="blank">Live: {currItem.live}</a>
+                        <a href={currItem.repo} target="blank">Repo: {currItem.repo}</a>
+                    </div>                    
                 </div>
             <Footer /> 
             </div>

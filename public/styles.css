@@ -1,12 +1,14 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Roboto', sans-serif;   
 }
 html {
     font-size:62.5%;
+    font-size: 1rem;
 }
 body{
     margin:0;
-    font-size: 1.6rem;
 }
 
