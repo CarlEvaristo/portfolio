@@ -64,22 +64,6 @@ export const projectList = [
         repo: "https://github.com/CarlEvaristo/react-router-practice"
     },
     {
-        name: "Tic Tac Toe",
-        image: "/images/tictactoe.jpg",
-        title: "Tic Tac Toe game in React deployed to Vercel",
-        description:"React, useState and useEffect hooks, gridbox layout",
-        live: "https://tic-tac-toe-eosin-mu.vercel.app/",
-        repo: "https://github.com/CarlEvaristo/tic-tac-toe"
-    },
-    {
-        name: "Speed Typing",
-        image: "/images/speed-typing.jpg",
-        title: "Speed Typing Game",
-        description:"React game using useState, useEffect, useRef, and custom hooks",
-        live: "https://speed-typing-react-game.vercel.app/",
-        repo: "https://github.com/CarlEvaristo/speed-typing-react-game"
-    },
-    {
         name: "Google Keep Clone",
         image: "/images/google-keep.jpg",
         title: "Google Keep Clone",
@@ -142,6 +126,22 @@ export const projectList = [
         description:"Chrome Browser Extension inspired by the popular Momentum extension. It renders a dashboard when a new Browser window is opened. It uses localStorage. It welcomes you with a custom greeting (you can input your name),current local time. It fetches a random wallpaper image from unsplash api, cryptocurrency prices from the coingecko api, weather info from openweathermap api, and inspirational quotes from another external api. ",
         live: "https://carlevaristo.github.io/chrome-extension/",
         repo: "https://github.com/CarlEvaristo/momentum-browser-extension"
+    },
+    {
+        name: "Tic Tac Toe",
+        image: "/images/tictactoe.jpg",
+        title: "Tic Tac Toe game in React deployed to Vercel",
+        description:"React, useState and useEffect hooks, gridbox layout",
+        live: "https://tic-tac-toe-eosin-mu.vercel.app/",
+        repo: "https://github.com/CarlEvaristo/tic-tac-toe"
+    },
+    {
+        name: "Speed Typing",
+        image: "/images/speed-typing.jpg",
+        title: "Speed Typing Game",
+        description:"React game using useState, useEffect, useRef, and custom hooks",
+        live: "https://speed-typing-react-game.vercel.app/",
+        repo: "https://github.com/CarlEvaristo/speed-typing-react-game"
     },
     {
         name: "Responsiveness Study 1",
