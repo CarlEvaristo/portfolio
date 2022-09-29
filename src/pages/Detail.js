@@ -35,7 +35,6 @@ export default function Detail() {
                         <a href={currItem.repo} target="blank">Repo: {currItem.repo}</a>
                     </div>                    
                 </div>
-            <Footer /> 
             </div>
         </>
   )
