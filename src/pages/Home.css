@@ -150,15 +150,17 @@
         text-align: center;
     }
     .aboutBg {
-        background: linear-gradient(360deg, #ffffff99 0, #ffffff 80vh), linear-gradient(90deg, #ffffff 10vw, #ffffff00 80vw), url("../../public/images/personalbg.jpg");
+        background-color: #ffffff;
+        background-image: none;
+        /* background: linear-gradient(360deg, #ffffff99 0, #ffffff 80vh), linear-gradient(90deg, #ffffff 10vw, #ffffff00 80vw), url("../../public/images/personalbg.jpg");
         background-size: 300%;
-        background-position: bottom right;
+        background-position: bottom right; */
     }
     .aboutContainer {
         width: 90vw;
     }
     .subtext svg {
-        color: #21325e;
+        color: #3ae6a4;
     }
     .skills {
         padding-top: 0;
