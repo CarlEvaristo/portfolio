@@ -106,58 +106,58 @@ export const projectList = [
     {
         name: "Movie Watchlist",
         image: "/images/movie-watchlist.jpg",
-        title: "",
-        description:"",
-        live: "",
-        repo: ""
+        title: "Movie Watchlist",
+        description:"Vanilla Javascript app, fetch movie data from external API, storing data to localStorage.",
+        live: "https://carlevaristo.github.io/movie-watchlist/",
+        repo: "https://github.com/CarlEvaristo/movie-watchlist"
     },
     {
-        name: "Custom Rest API Interface",
+        name: "Custom RESTful API Interface",
         image: "/images/custom-rest-api.jpg",
-        title: "",
-        description:"",
-        live: "",
+        title: "Custom RESTful API Interface, using MongoDB",
+        description:"A custom RESTful API for a blog website, using a MongoDB database server. Deployed to Heroku and MongoDB Atlas. API documentation made with Postman. I Used server-side rendering with EJS to build a frontend, to publish the API's documentation and as testing environment for GET, POST, PUT, and DELETE requests.",
+        live: "https://marvelous-saguaro-16795.herokuapp.com/",
         repo: ""
     },
     {
-        name: "NodeJS, ExpressJS Study",
+        name: "NodeJS, ExpressJS, MongoDB Study",
         image: "/images/node-express-study.jpg",
-        title: "",
-        description:"",
-        live: "",
+        title: "NodeJS, ExpressJS, MongoDB Study",
+        description:"Saves data to MongoDB database, using NodeJS, ExpressJS, and EJS for server-side rendering. Deployed on Heroku and MongoDB Atlas.",
+        live: "https://flannel-minister-92006.herokuapp.com/",
         repo: ""
     },
     {
         name: "NodeJS Mailchimp Integration",
         image: "/images/node-mailchimp-integration.jpg",
-        title: "",
-        description:"",
-        live: "",
+        title: "NodeJS Mailchimp Integration",
+        description:"Node backend, sends data to Mailchimp API, deployed on Heroku.",
+        live: "https://ancient-cove-95628.herokuapp.com/signup.html",
         repo: ""
     },
     {
         name: "Chrome Browser Extension",
         image: "/images/chrome-browser-extension.jpg",
-        title: "",
-        description:"",
-        live: "",
-        repo: ""
+        title: "Chrome Browser Extension",
+        description:"Chrome Browser Extension inspired by the popular Momentum extension. It renders a dashboard when a new Browser window is opened. It uses localStorage. It welcomes you with a custom greeting (you can input your name),current local time. It fetches a random wallpaper image from unsplash api, cryptocurrency prices from the coingecko api, weather info from openweathermap api, and inspirational quotes from another external api. ",
+        live: "https://carlevaristo.github.io/chrome-extension/",
+        repo: "https://github.com/CarlEvaristo/momentum-browser-extension"
     },
     {
         name: "Responsiveness Study 1",
         image: "/images/barbecue-landing-page.jpg",
-        title: "",
-        description:"",
-        live: "",
-        repo: ""
+        title: "Barbecue Landing Page",
+        description:"Landing page for a barbecue product. Responsiveness and javascript formData study.",
+        live: "https://carlevaristo.github.io/barbecue-landing-page/",
+        repo: "https://github.com/CarlEvaristo/barbecue-landing-page"
     },
     {
         name: "Responsiveness Study 2",
         image: "/images/responsiveness-study.jpg",
-        title: "",
-        description:"",
-        live: "",
-        repo: ""
+        title: "The Simple Life Blog",
+        description:"This was my biggest responsiveness study. For this project I followed a mobile first approach.",
+        live: "https://carlevaristo.github.io/The-Simple-Life---mobile-first-approach/",
+        repo: "https://github.com/CarlEvaristo/The-Simple-Life---mobile-first-approach"
     },
     {
         name: "Meme Generator",
