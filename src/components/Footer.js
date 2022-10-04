@@ -11,10 +11,9 @@ export default function Footer() {
     return (
         <div className='footer'>
             <div className='social'>
-                <EmailIcon />
-                <LinkedInIcon />
-                <GitHubIcon />
-                <TwitterIcon />
+                <a href="mailto:thepythoneer@gmail.com"><EmailIcon /></a>
+                <a href="https://www.linkedin.com/in/carl-evaristo/"><LinkedInIcon /></a>
+                <a href="https://github.com/CarlEvaristo"><GitHubIcon /></a>
             </div>
             <p> &copy; {currentYear.getFullYear()}</p>
         </div>
