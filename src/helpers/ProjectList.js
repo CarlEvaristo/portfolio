@@ -1,6 +1,6 @@
 export const projectList = [
     {
-        name: "Disney Plus",
+        name: "Disney Plus Clone",
         image: "/images/disneyPlus.jpg",
         title: "Fullstack Disney Plus clone (build from scratch), with admin to manage movies and admin access.",
         description: "React frontend using custom hooks, React Context state management, React Routing, Firebase backend, hooks for authentication, storage for image files, and firestore users/ movies database. For admin go to: https://disney-plus-clone-9c8f4.web.app/admin email/password: admin@admin.com/123456",
@@ -8,10 +8,10 @@ export const projectList = [
         repo: "https://github.com/CarlEvaristo/disney-plus"
     },
     {
-        name: "Social Media",
+        name: "Social Media Blog",
         image: "/images/socialMedia.jpg",
-        title: "Social Media blog project deployed to AWS EC2, RDS, and Cloudinary",
-        description:"React Router, React Context state management, and custom hooks. NodeJS/ ExpressJS backend deployed to AWS EC2 instance, with MySQL database deployed to AWS RDS, and Cloudinary for image storage.",
+        title: "Social Media blog project deployed to AWS EC2, RDS, using AWS Code Pipeline for CI/CD.",
+        description:"React Router, React Context state management, and custom hooks. React frontend and NodeJS/ ExpressJS backend deployed to AWS EC2 instance, with MySQL database deployed to AWS RDS, and Cloudinary for image storage. Used AWS Code Pipeline to create as CI/CD integration with GitHub.",
         live: "http://socialmediaserver-env.eba-3v5vf2qa.us-east-1.elasticbeanstalk.com/",
         repo: "https://github.com/CarlEvaristo/social-media-site"
     },

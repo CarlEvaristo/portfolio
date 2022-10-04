@@ -6,7 +6,6 @@
     background-color: rgb(255, 255, 255);
 }
 .detailContainer {
-    scroll-snap-align: start;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -60,8 +59,20 @@
     object-fit: cover;
 }
 .detailBtn {
-    
+        cursor: pointer;
+        text-decoration: none;
+        padding:0.3em 1em;
+        margin: 0.5em;
+        font-size: 1.5rem;
+        margin-top: 1em;
+        outline:solid #21325e 3px;
+        border-radius: 3px;
+        margin-top: 0.7em;
 }
+.detailBtn:hover {
+    outline:solid #3ae6a4 3px;
+}
+
 @media (max-width:600px) {
     .detailContainer {
         padding:100px 0 300px;
