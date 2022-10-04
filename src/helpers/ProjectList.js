@@ -10,9 +10,9 @@ export const projectList = [
     {
         name: "Social Media",
         image: "/images/socialMedia.jpg",
-        title: "Complete Social Media blog project",
-        description:"React Router, React Context state management, and custom hooks. NodeJS/ ExpressJS backend with MySQL database, and Cloudinary for image storage.",
-        live: "",
+        title: "Social Media blog project deployed to AWS EC2, RDS, and Cloudinary",
+        description:"React Router, React Context state management, and custom hooks. NodeJS/ ExpressJS backend deployed to AWS EC2 instance, with MySQL database deployed to AWS RDS, and Cloudinary for image storage.",
+        live: "http://socialmediaserver-env.eba-3v5vf2qa.us-east-1.elasticbeanstalk.com/",
         repo: "https://github.com/CarlEvaristo/social-media-site"
     },
     {

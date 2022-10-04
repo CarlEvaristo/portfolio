@@ -31,8 +31,8 @@ export default function Detail() {
                         <img src={currItem.image}  className="detailImage" />
                         <h3>{currItem.title}</h3>
                         <p>{currItem.description}</p>
-                        <a href={currItem.live} target="blank">Live: {currItem.live}</a>
-                        <a href={currItem.repo} target="blank">Repo: {currItem.repo}</a>
+                        <a href={currItem.live} target="blank" className='detailBtn'>Live: {currItem.live}</a>
+                        <a href={currItem.repo} target="blank" className='detailBtn'>Repo: {currItem.repo}</a>
                     </div>                    
                 </div>
             </div>
