@@ -22,7 +22,6 @@ export default function Home() {
     // (function saves value to context state manager and navbar uses it to conditionally render bg color)
 
     function handleScroll(e) {
-        // console.log(e.target.scrollTop)
         context1.scrollSetter(e.target.scrollTop)
     }
     
@@ -50,9 +49,9 @@ export default function Home() {
                             <p>with full-stack aspirations.</p>
                             <p>I built scalable frontends, </p>
                             <p>and great user experiences. </p>
-                            <LinkedInIcon />
-                            <EmailIcon />
-                            <GitHubIcon />
+                            <a href="mailto:thepythoneer@gmail.com" target="_blank"><EmailIcon /></a>
+                            <a href="https://www.linkedin.com/in/carl-evaristo/" target="_blank"><LinkedInIcon /></a>
+                            <a href="https://github.com/CarlEvaristo" target="_blank"><GitHubIcon /></a>
                         </div>
                         {/* <div style={{height: "250px", width: "100%", overflow: "hidden"}} ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{height: "150%", width: "100%"}}><path d="M0.00,49.99 C150.00,150.00 329.23,-17.26 500.00,49.99 L500.00,150.00 L0.00,150.00 Z" style={{stroke: "none", fill: "#fff"}}></path></svg></div> */}
                     </div>
