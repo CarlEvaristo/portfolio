@@ -47,7 +47,7 @@ export default function Home() {
                         <div className='subtext'>
                             <p>I am a React Developer,</p>
                             <p>with full-stack aspirations.</p>
-                            <p>I built scalable frontends, </p>
+                            <p>I build scalable frontends, </p>
                             <p>and great user experiences. </p>
                             <a href="mailto:thepythoneer@gmail.com" target="_blank"><EmailIcon /></a>
                             <a href="https://www.linkedin.com/in/carl-evaristo/" target="_blank"><LinkedInIcon /></a>
