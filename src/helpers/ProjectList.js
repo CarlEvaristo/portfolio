@@ -1,5 +1,13 @@
 export const projectList = [
     {
+        name: "WIP Code with Carl",
+        image: "/images/code-with-carl.jpg",
+        title: "Code with Carl (WIP), a coding course project, with a custom (HTML, CSS, Javascript, React) coding editor",
+        description: "React frontend using custom hooks, state management, and a coding sandbox with runtime code compilation",
+        live: "https://dev-0002--lucky-biscochitos-d90d11.netlify.app/courses/1/1",
+        repo: "https://github.com/CarlEvaristo/dev-course"
+    },
+    {
         name: "Disney Plus Clone",
         image: "/images/disneyPlus.jpg",
         title: "Fullstack Disney Plus clone (build from scratch), with admin to manage movies and admin access.",
